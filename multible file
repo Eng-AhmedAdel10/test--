@@ -6,5 +6,4 @@ function sub(obj) {
         fileName.push(files[i].name)
     }
     document.getElementById("yourBtn").innerHTML = fileName.join(", ");
-    console.log(fileName);
   }
